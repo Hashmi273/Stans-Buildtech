@@ -24,9 +24,11 @@ export default function TermsConditions() {
       <section className="max-w-4xl mx-auto px-4 sm:px-6">
         <div className="bg-white p-8 md:p-12 rounded-3xl shadow-luxury border border-stans-gold/20 space-y-8 text-stans-navy">
           
-          <div className="flex items-center gap-3 p-4 bg-stans-gold-light rounded-xl border border-stans-gold/30 text-stans-navy">
-            <Scale className="w-6 h-6 text-stans-gold shrink-0" />
-            <p className="text-xs md:text-sm font-medium">
+          <div className="p-4 bg-stans-gold-light rounded-xl border border-stans-gold/30 text-stans-navy space-y-1">
+            <p className="text-sm md:text-base font-bold">
+              These Terms & Conditions govern the use of the Stans Buildtech website and services. Stans Buildtech is a brand operated by Immense Smart Solutions.
+            </p>
+            <p className="text-xs text-stans-slate/80">
               By accessing this website, you agree to comply with the terms and conditions outlined below.
             </p>
           </div>

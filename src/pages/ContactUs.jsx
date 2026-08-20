@@ -36,7 +36,11 @@ export default function ContactUs() {
             />
 
             <div className="space-y-6 bg-white p-6 md:p-8 rounded-2xl shadow-luxury border border-stans-gold/20">
-              
+              <div className="pb-3 border-b border-stans-offwhite">
+                <h3 className="font-serif text-2xl font-bold text-stans-navy">Stans Buildtech</h3>
+                <p className="text-xs text-stans-gold font-semibold uppercase tracking-wider mt-0.5">Customer & Sales Advisory</p>
+              </div>
+
               {/* Office Address */}
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 rounded-lg bg-stans-gold/10 text-stans-gold flex items-center justify-center shrink-0">
@@ -94,6 +98,13 @@ export default function ContactUs() {
                   <h4 className="text-xs font-semibold text-stans-gold uppercase tracking-wider">Working Hours</h4>
                   <p className="text-sm text-stans-navy font-medium">{companyDetails.contact.workingHours}</p>
                 </div>
+              </div>
+
+              {/* Brand Operator Disclosure Notice */}
+              <div className="pt-4 border-t border-stans-offwhite text-center sm:text-left">
+                <p className="text-xs text-stans-slate/85 font-medium">
+                  Stans Buildtech is a brand operated by Immense Smart Solutions.
+                </p>
               </div>
             </div>
 

@@ -38,9 +38,11 @@ export default function AboutUs() {
               title="Transforming Skylines Across Mumbai & Maharashtra"
               className="mb-4"
             />
-            <p className="text-sm md:text-base text-stans-slate/85 leading-relaxed font-medium">
-              {companyDetails.about.intro}
-            </p>
+            <div className="p-4 bg-stans-gold-light rounded-xl border border-stans-gold/30 text-stans-navy">
+              <p className="text-sm font-semibold leading-relaxed">
+                Stans Buildtech is a real estate brand operated by Immense Smart Solutions, focused on presenting residential and commercial real estate opportunities across Mumbai.
+              </p>
+            </div>
             <div className="text-sm text-stans-slate/75 leading-relaxed space-y-4">
               {companyDetails.about.fullStory.split('\n\n').map((paragraph, index) => (
                 <p key={index}>{paragraph}</p>

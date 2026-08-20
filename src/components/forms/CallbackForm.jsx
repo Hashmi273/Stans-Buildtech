@@ -7,7 +7,7 @@ import Button from '../ui/Button';
  */
 export default function CallbackForm({ onSuccess }) {
   const [phone, setPhone] = useState('');
-  const [consent, setConsent] = useState(true);
+  const [consent, setConsent] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
@@ -101,7 +101,7 @@ export default function CallbackForm({ onSuccess }) {
           className="mt-0.5 text-stans-gold accent-stans-gold"
         />
         <span className="text-[10px] text-stans-slate/80 leading-tight">
-          I consent to receiving callback & WhatsApp updates from Stans Buildtech.
+          I agree to be contacted by Stans Buildtech / Immense Smart Solutions regarding property enquiries, project information, offers and related services through Call, SMS, WhatsApp or Email.
         </span>
       </label>
 

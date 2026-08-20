@@ -17,10 +17,11 @@ export const companyDetails = {
   // About Narrative (Paraphrased from source)
   about: {
     heroTitle: 'Crafting Exceptional Spaces, Elevating Every Lifestyle',
-    intro: 'Stans Buildtech Group is one of Mumbai\'s premier real estate development firms, driven by an unwavering passion for engineering precision, modern design, and community-centric living.',
-    fullStory: `Founded on the principles of integrity, qualitative construction, and timely execution, Stans Buildtech has transformed skylines across Mumbai and Maharashtra. Over the years, the group has earned a repute as a fast-growing, quality-conscious developer capable of executing complex residential high-rises and state-of-the-art commercial hubs.
+    statement: 'Stans Buildtech is a real estate brand operated by Immense Smart Solutions, focused on presenting residential and commercial real estate opportunities across Mumbai.',
+    intro: 'Stans Buildtech is a real estate brand operated by Immense Smart Solutions, focused on presenting residential and commercial real estate opportunities across Mumbai.',
+    fullStory: `Stans Buildtech is a real estate brand operated by Immense Smart Solutions, focused on presenting residential and commercial real estate opportunities across Mumbai. Founded on the principles of integrity, qualitative construction, and timely execution, Stans Buildtech presents exceptional living spaces and commercial landmarks across Mumbai and Maharashtra.
 
-With a dedicated team of civil engineers, architects, project managers, and customer advisors, Stans Buildtech ensures every brick laid meets rigorous safety standards and aesthetic finesse. From Chembur to Malad, Dahisar, and Jogeshwari, our developments stand as testaments to evolving lifestyle solutions for modern urban families.`,
+With a dedicated team of civil engineers, architects, project managers, and customer advisors, Stans Buildtech ensures every project presented meets rigorous safety standards and aesthetic finesse. From Chembur to Malad, Dahisar, and Jogeshwari, our developments stand as testaments to evolving lifestyle solutions for modern urban families.`,
     stats: [
       { number: '15+', label: 'Years of Engineering Excellence' },
       { number: '2.5M+', label: 'Sq. Ft. Total Development Area' },
@@ -99,6 +100,7 @@ With a dedicated team of civil engineers, architects, project managers, and cust
     ]
   },
 
-  // Mandatory Legal Copyright
-  copyright: '© 2026 IMMENSE SMART SOLUTIONS. All Rights Reserved.'
+  // Mandatory Legal Copyright & Operating Notice
+  copyright: '© 2026 Stans Buildtech. All Rights Reserved.',
+  operatorNotice: 'Stans Buildtech is a brand operated by Immense Smart Solutions.'
 };

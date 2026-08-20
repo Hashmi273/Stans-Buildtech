@@ -127,8 +127,13 @@ export default function Footer() {
 
         {/* Bottom Copyright Strip */}
         <div className="pt-6 flex flex-col md:flex-row items-center justify-between text-xs text-stans-grey gap-4">
-          <div className="font-mono text-slate-300 font-medium">
-            {companyDetails.copyright}
+          <div className="space-y-1 text-center md:text-left">
+            <p className="font-mono text-slate-300 font-medium">
+              © 2026 Stans Buildtech. All Rights Reserved.
+            </p>
+            <p className="text-[11px] text-stans-grey/90">
+              Stans Buildtech is a brand operated by Immense Smart Solutions.
+            </p>
           </div>
           <div className="flex flex-wrap items-center gap-3 md:gap-4 text-stans-grey">
             <Link to="/privacy-policy" className="hover:text-stans-gold transition-colors">
