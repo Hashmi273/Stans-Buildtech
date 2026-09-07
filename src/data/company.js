@@ -1,101 +1,51 @@
 export const companyDetails = {
   name: 'Stans Buildtech',
-  tagline: 'Evolving Lifestyle',
-  establishedYear: '2008',
+  tagline: 'Laptops, Computers & Tech Accessories Store',
+  establishedYear: '2016',
   
-  // TODO: Client to confirm real contact details
   contact: {
-    address: 'Stans Buildtech Corporate Office, 4th Floor, Stans Tower, Link Road, Malad West, Mumbai, Maharashtra 400064', // Placeholder address
-    phone: '+91 22 2888 9999', // Placeholder phone
-    mobile: '+91 98200 12345', // Placeholder mobile
-    email: 'info@stansbuildtech.com', // Placeholder email
+    address: 'Stans Buildtech Computer Store, 2nd Floor, Stans Tech Plaza, Link Road, Malad West, Mumbai, Maharashtra 400064',
+    phone: '+91 22 2888 9999',
+    mobile: '+91 98200 12345',
+    email: 'support@stansbuildtech.com',
     salesEmail: 'sales@stansbuildtech.com',
-    workingHours: 'Mon - Sat: 9:30 AM - 6:30 PM',
+    workingHours: 'Mon - Sat: 10:00 AM - 8:00 PM',
     mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.41249826359!2d72.8369!3d19.1860!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6d13a967f0d%3A0x6b63c87042a42048!2sMalad%20West%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin'
   },
 
-  // About Narrative (Paraphrased from source)
   about: {
-    heroTitle: 'Crafting Exceptional Spaces, Elevating Every Lifestyle',
-    statement: 'Stans Buildtech is a real estate brand operated by Immense Smart Solutions, focused on presenting residential and commercial real estate opportunities across Mumbai.',
-    intro: 'Stans Buildtech is a real estate brand operated by Immense Smart Solutions, focused on presenting residential and commercial real estate opportunities across Mumbai.',
-    fullStory: `Stans Buildtech is a real estate brand operated by Immense Smart Solutions, focused on presenting residential and commercial real estate opportunities across Mumbai. Founded on the principles of integrity, qualitative construction, and timely execution, Stans Buildtech presents exceptional living spaces and commercial landmarks across Mumbai and Maharashtra.
+    heroTitle: 'Your Trusted Destination for Laptops, PCs & Premium Tech Accessories',
+    statement: 'Stans Buildtech is a real estate & technology retail brand operated by Immense Smart Solutions, presenting high-performance computing solutions across India.',
+    intro: 'Stans Buildtech is a tech retail brand operated by Immense Smart Solutions, focused on providing genuine high-performance laptops, custom gaming PCs, accessories, and computing hardware.',
+    fullStory: `Stans Buildtech is a technology retail brand operated by Immense Smart Solutions. We specialize in bringing top-tier laptops, gaming rigs, ultra-fast SSD storage, mechanical keyboards, ergonomic mice, and studio monitors directly to consumers and enterprise professionals across Mumbai and India.
 
-With a dedicated team of civil engineers, architects, project managers, and customer advisors, Stans Buildtech ensures every project presented meets rigorous safety standards and aesthetic finesse. From Chembur to Malad, Dahisar, and Jogeshwari, our developments stand as testaments to evolving lifestyle solutions for modern urban families.`,
+With 100% genuine brand warranties, fast door-step delivery, GST invoice support, and dedicated technical assistance, Stans Buildtech ensures your digital workstation is equipped with high-efficiency hardware.`,
     stats: [
-      { number: '15+', label: 'Years of Engineering Excellence' },
-      { number: '2.5M+', label: 'Sq. Ft. Total Development Area' },
-      { number: '1,200+', label: 'Happy Families Housed' },
-      { number: '100%', label: 'RERA Compliance Track Record' }
+      { number: '100%', label: 'Genuine Products & Warranty' },
+      { number: '25,000+', label: 'Happy Customers Served' },
+      { number: '24 Hours', label: 'Express Order Dispatch' },
+      { number: 'GST Ready', label: 'B2B & Tax Invoice Support' }
     ],
     values: [
       {
-        title: 'Uncompromising Quality',
-        description: 'We adhere to stringent structural audit guidelines, premium grade raw materials, and precision engineering techniques in every structure.',
-        icon: 'Award'
-      },
-      {
-        title: 'Timely Delivery',
-        description: 'Delivering projects on schedule is our core operational promise, supported by robust project planning and advanced construction technology.',
-        icon: 'Clock'
-      },
-      {
-        title: 'Complete Transparency',
-        description: 'Clear title deeds, zero hidden costs, and transparent RERA communications build lasting trust with home buyers.',
+        title: '100% Original Products',
+        description: 'Direct brand authorized inventory with full manufacturer warranty and verified serial numbers.',
         icon: 'ShieldCheck'
       },
       {
-        title: 'Customer-Centricity',
-        description: 'From initial enquiry to post-handover society formation, we prioritize open communication and long-term customer satisfaction.',
-        icon: 'HeartHandshake'
-      }
-    ]
-  },
-
-  // Director's Message details (Paraphrased)
-  director: {
-    // TODO: Client to provide exact Director Name & Designation
-    name: 'Director & Managing Founder', // Placeholder - Client to provide exact name
-    designation: 'Civil Engineer & Founder, Stans Buildtech',
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80',
-    title: 'Building Legacies with Vision, Precision & Passion',
-    quote: '"Real estate development is not merely about constructing concrete towers; it is about building the foundation where dreams thrive and families flourish."',
-    messageParagraphs: [
-      `Welcome to Stans Buildtech. As a civil engineer by background, my journey in real estate development has always been guided by a simple belief: structural engineering excellence combined with empathetic architectural design creates timeless urban homes.`,
-
-      `Under our leadership, Stans Buildtech has grown into one of Mumbai's most trusted real estate brand names. This growth has been powered by our relentless focus on timely execution, high construction standards, and a deeply motivated team of professionals who share our ethos.`,
-
-      `As Mumbai expands and urban lifestyles evolve, we remain committed to creating spaces that balance modern luxury, ecological sustainability, and long-term investment value. We thank our customers, partners, and stakeholders for their continued faith in our journey.`
-    ]
-  },
-
-  // Careers info
-  careers: {
-    intro: 'Join a dynamic, fast-growing team of civil engineers, project planners, architects, and real estate professionals dedicated to building Mumbai\'s skyline.',
-    openings: [
-      {
-        id: 1,
-        title: 'Senior Civil Project Engineer',
-        location: 'Mumbai (Site Locations)',
-        experience: '5 - 8 Years',
-        department: 'Engineering & Construction',
-        description: 'Oversee site execution, quality assurance, safety compliance, and contractor coordination for high-rise residential projects.'
+        title: 'Fast Express Delivery',
+        description: 'Secure, insured express shipping across Mumbai metro and nationwide with real-time tracking.',
+        icon: 'Truck'
       },
       {
-        id: 2,
-        title: 'Assistant Manager — Sales & Business Development',
-        location: 'Corporate Office (Malad West)',
-        experience: '3 - 5 Years',
-        department: 'Sales & CRM',
-        description: 'Handle customer site visits, channel partner relations, inventory presentation, and lead conversion for ongoing residential developments.'
+        title: 'GST Tax Invoicing',
+        description: 'Get instant GST invoice input credit for corporate purchases and business accounting.',
+        icon: 'FileText'
       },
       {
-        id: 3,
-        title: 'Architectural Project Coordinator',
-        location: 'Corporate Office (Malad West)',
-        experience: '2 - 4 Years',
-        department: 'Design & Architecture',
-        description: 'Coordinate working drawings, MEP specifications, liaison documentation, and design compliance with site teams.'
+        title: 'Tech Support & Service',
+        description: 'Dedicated hardware support technicians available to assist with setup, upgrades, and compatibility.',
+        icon: 'Headphones'
       }
     ]
   },
