@@ -26,10 +26,10 @@ export default function PrivacyPolicy() {
           
           <div className="p-4 bg-stans-gold-light rounded-xl border border-stans-gold/30 text-stans-navy space-y-1">
             <p className="text-sm md:text-base font-bold">
-              Stans Buildtech (“we”, “our”, “us”) is a real estate brand operated by Immense Smart Solutions.
+              EVENTRIC / Stans Buildtech (“we”, “our”, “us”) is a retail business operated by WASIM HASHMI (Proprietorship, GSTIN: 27AOGPH6435N2ZI).
             </p>
             <p className="text-xs text-stans-slate/80">
-              Last Updated: August 2026 | Effective for all digital communications across Stans Buildtech domains.
+              Registered Office: Shop No. 18, 1st Floor, Evershine Mall Co-op Society Ltd, Link Road, Near Chincholi Bunder Signal, Malad West, Mumbai, Maharashtra – 400064.
             </p>
           </div>
 

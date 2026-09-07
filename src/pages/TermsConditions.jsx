@@ -26,10 +26,10 @@ export default function TermsConditions() {
           
           <div className="p-4 bg-stans-gold-light rounded-xl border border-stans-gold/30 text-stans-navy space-y-1">
             <p className="text-sm md:text-base font-bold">
-              These Terms & Conditions govern the use of the Stans Buildtech website and services. Stans Buildtech is a brand operated by Immense Smart Solutions.
+              These Terms & Conditions govern the use of the EVENTRIC / Stans Buildtech website and services (Legal Entity: WASIM HASHMI, GSTIN: 27AOGPH6435N2ZI).
             </p>
             <p className="text-xs text-stans-slate/80">
-              By accessing this website, you agree to comply with the terms and conditions outlined below.
+              Registered Office: Shop No. 18, 1st Floor, Evershine Mall Co-op Society Ltd, Link Road, Near Chincholi Bunder Signal, Malad West, Mumbai, Maharashtra – 400064.
             </p>
           </div>
 

@@ -119,11 +119,15 @@ export default function ContactUs() {
                 </div>
               </div>
 
-              {/* Required Operator Disclosure Notice */}
-              <div className="pt-4 border-t border-stans-offwhite text-center sm:text-left">
-                <p className="text-xs text-stans-slate/85 font-medium">
-                  Stans Buildtech is a brand operated by Immense Smart Solutions.
-                </p>
+              {/* Required Business Registration Disclosure */}
+              <div className="pt-4 border-t border-stans-offwhite space-y-2 bg-stans-offwhite p-4 rounded-xl border border-stans-gold/20">
+                <h4 className="text-xs font-bold text-stans-gold uppercase tracking-wider">OFFICIAL BUSINESS INFORMATION</h4>
+                <div className="text-xs space-y-1 text-stans-navy">
+                  <p><span className="font-semibold text-stans-grey">Legal Entity:</span> <strong>WASIM HASHMI</strong></p>
+                  <p><span className="font-semibold text-stans-grey">Trade Name:</span> <strong>EVENTRIC</strong></p>
+                  <p><span className="font-semibold text-stans-grey">Business Constitution:</span> <strong>Proprietorship</strong></p>
+                  <p><span className="font-semibold text-stans-grey">GSTIN:</span> <strong className="font-mono text-stans-gold">27AOGPH6435N2ZI</strong></p>
+                </div>
               </div>
             </div>
           </div>

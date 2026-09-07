@@ -124,14 +124,43 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Official Business Information Box */}
+        <div className="bg-stans-slate/60 p-6 rounded-2xl border border-stans-gold/30 text-xs text-stans-grey space-y-3">
+          <h4 className="font-serif font-bold text-stans-gold text-sm tracking-wider uppercase flex items-center gap-2">
+            <span>BUSINESS INFORMATION</span>
+          </h4>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-xs">
+            <div>
+              <span className="font-semibold text-slate-300 block">Legal Entity:</span>
+              <span className="font-mono text-white font-bold">{companyDetails.businessInfo.legalEntity}</span>
+            </div>
+            <div>
+              <span className="font-semibold text-slate-300 block">Trade Name:</span>
+              <span className="font-mono text-stans-gold font-bold">{companyDetails.businessInfo.tradeName}</span>
+            </div>
+            <div>
+              <span className="font-semibold text-slate-300 block">Business Constitution:</span>
+              <span className="font-mono text-white font-bold">{companyDetails.businessInfo.businessConstitution}</span>
+            </div>
+            <div>
+              <span className="font-semibold text-slate-300 block">GSTIN:</span>
+              <span className="font-mono text-stans-gold font-bold">{companyDetails.businessInfo.gstin}</span>
+            </div>
+          </div>
+          <div className="pt-2 border-t border-stans-slate/40 text-[11px] leading-relaxed">
+            <span className="font-semibold text-slate-300">Registered Office: </span>
+            <span className="text-slate-200">{companyDetails.businessInfo.registeredOffice}</span>
+          </div>
+        </div>
+
         {/* Bottom Copyright & Legal Operator Notice */}
         <div className="pt-6 flex flex-col md:flex-row items-center justify-between text-xs text-stans-grey gap-4">
           <div className="space-y-1 text-center md:text-left">
             <p className="font-mono text-slate-300 font-medium">
-              © 2026 Stans Buildtech. All Rights Reserved.
+              © 2026 EVENTRIC. All Rights Reserved.
             </p>
             <p className="text-[11px] text-stans-grey/90">
-              Stans Buildtech is a brand operated by Immense Smart Solutions.
+              Legal Entity: WASIM HASHMI | Trade Name: EVENTRIC (Proprietorship) | GSTIN: 27AOGPH6435N2ZI
             </p>
           </div>
 
