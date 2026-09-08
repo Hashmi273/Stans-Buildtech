@@ -122,11 +122,11 @@ export default function ContactUs() {
               {/* Required Business Registration Disclosure */}
               <div className="pt-4 border-t border-stans-offwhite space-y-2 bg-stans-offwhite p-4 rounded-xl border border-stans-gold/20">
                 <h4 className="text-xs font-bold text-stans-gold uppercase tracking-wider">OFFICIAL BUSINESS INFORMATION</h4>
-                <div className="text-xs space-y-1 text-stans-navy">
-                  <p><span className="font-semibold text-stans-grey">Legal Entity:</span> <strong>WASIM HASHMI</strong></p>
-                  <p><span className="font-semibold text-stans-grey">Trade Name:</span> <strong>EVENTRIC</strong></p>
-                  <p><span className="font-semibold text-stans-grey">Business Constitution:</span> <strong>Proprietorship</strong></p>
-                  <p><span className="font-semibold text-stans-grey">GSTIN:</span> <strong className="font-mono text-stans-gold">27AOGPH6435N2ZI</strong></p>
+                <div className="text-xs space-y-1.5 text-stans-navy">
+                  <p><span className="font-semibold text-stans-grey">Legal Entity:</span> <strong>ROLLAND SPACES PRIVATE LIMITED</strong></p>
+                  <p><span className="font-semibold text-stans-grey">Business Constitution:</span> <strong>Private Limited Company</strong></p>
+                  <p><span className="font-semibold text-stans-grey">GSTIN:</span> <strong className="font-mono text-stans-gold">27AAMCR2075D1ZC</strong></p>
+                  <p className="text-[11px] leading-snug"><span className="font-semibold text-stans-grey block">Principal Place of Business:</span> <span>5th Floor, B-518, Samarth Aishwarya, Adarsh Nagar Road, Near Highland Park, Andheri West, Mumbai, Maharashtra - 400053.</span></p>
                 </div>
               </div>
             </div>
@@ -215,7 +215,7 @@ export default function ContactUs() {
                         className="mt-1 w-4 h-4 text-stans-gold rounded border-stans-slate/30 accent-stans-gold"
                       />
                       <span className="text-[11px] text-stans-slate/80 leading-snug group-hover:text-stans-navy transition-colors">
-                        I agree to be contacted by Stans Buildtech / Immense Smart Solutions regarding property enquiries, project information, offers and related services through Call, SMS, WhatsApp or Email.
+                        I agree to be contacted by ROLLAND SPACES PRIVATE LIMITED regarding product enquiries, project information, offers and related services through Call, SMS, WhatsApp or Email.
                       </span>
                     </label>
                   </div>

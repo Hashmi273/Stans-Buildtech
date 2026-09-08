@@ -26,10 +26,10 @@ export default function PrivacyPolicy() {
           
           <div className="p-4 bg-stans-gold-light rounded-xl border border-stans-gold/30 text-stans-navy space-y-1">
             <p className="text-sm md:text-base font-bold">
-              EVENTRIC / Stans Buildtech (“we”, “our”, “us”) is a retail business operated by WASIM HASHMI (Proprietorship, GSTIN: 27AOGPH6435N2ZI).
+              ROLLAND SPACES PRIVATE LIMITED (“we”, “our”, “us”) is a Private Limited Company (GSTIN: 27AAMCR2075D1ZC).
             </p>
             <p className="text-xs text-stans-slate/80">
-              Registered Office: Shop No. 18, 1st Floor, Evershine Mall Co-op Society Ltd, Link Road, Near Chincholi Bunder Signal, Malad West, Mumbai, Maharashtra – 400064.
+              Principal Place of Business: 5th Floor, B-518, Samarth Aishwarya, Adarsh Nagar Road, Near Highland Park, Andheri West, Mumbai, Maharashtra - 400053.
             </p>
           </div>
 

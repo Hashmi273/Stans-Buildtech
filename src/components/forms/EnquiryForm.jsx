@@ -265,7 +265,7 @@ export default function EnquiryForm({
             className="mt-1 w-4 h-4 text-stans-gold rounded border-stans-slate/30 focus:ring-stans-gold accent-stans-gold"
           />
           <span className="text-[11px] text-stans-slate/80 leading-snug group-hover:text-stans-navy transition-colors">
-            I agree to be contacted by Stans Buildtech / Immense Smart Solutions regarding property enquiries, project information, offers and related services through Call, SMS, WhatsApp or Email.
+            I agree to be contacted by ROLLAND SPACES PRIVATE LIMITED regarding product enquiries, project information, offers and related services through Call, SMS, WhatsApp or Email.
           </span>
         </label>
       </div>

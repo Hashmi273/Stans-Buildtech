@@ -101,7 +101,7 @@ export default function CallbackForm({ onSuccess }) {
           className="mt-0.5 text-stans-gold accent-stans-gold"
         />
         <span className="text-[10px] text-stans-slate/80 leading-tight">
-          I agree to be contacted by Stans Buildtech / Immense Smart Solutions regarding property enquiries, project information, offers and related services through Call, SMS, WhatsApp or Email.
+          I agree to be contacted by ROLLAND SPACES PRIVATE LIMITED regarding product enquiries, project information, offers and related services through Call, SMS, WhatsApp or Email.
         </span>
       </label>
 

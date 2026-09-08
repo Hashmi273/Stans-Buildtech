@@ -129,26 +129,22 @@ export default function Footer() {
           <h4 className="font-serif font-bold text-stans-gold text-sm tracking-wider uppercase flex items-center gap-2">
             <span>BUSINESS INFORMATION</span>
           </h4>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-xs">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
             <div>
               <span className="font-semibold text-slate-300 block">Legal Entity:</span>
               <span className="font-mono text-white font-bold">{companyDetails.businessInfo.legalEntity}</span>
-            </div>
-            <div>
-              <span className="font-semibold text-slate-300 block">Trade Name:</span>
-              <span className="font-mono text-stans-gold font-bold">{companyDetails.businessInfo.tradeName}</span>
             </div>
             <div>
               <span className="font-semibold text-slate-300 block">Business Constitution:</span>
               <span className="font-mono text-white font-bold">{companyDetails.businessInfo.businessConstitution}</span>
             </div>
             <div>
-              <span className="font-semibold text-slate-300 block">GSTIN:</span>
+              <span className="font-semibold text-slate-300 block">GSTIN / GST Registration:</span>
               <span className="font-mono text-stans-gold font-bold">{companyDetails.businessInfo.gstin}</span>
             </div>
           </div>
           <div className="pt-2 border-t border-stans-slate/40 text-[11px] leading-relaxed">
-            <span className="font-semibold text-slate-300">Registered Office: </span>
+            <span className="font-semibold text-slate-300">Principal Place of Business: </span>
             <span className="text-slate-200">{companyDetails.businessInfo.registeredOffice}</span>
           </div>
         </div>
@@ -157,10 +153,10 @@ export default function Footer() {
         <div className="pt-6 flex flex-col md:flex-row items-center justify-between text-xs text-stans-grey gap-4">
           <div className="space-y-1 text-center md:text-left">
             <p className="font-mono text-slate-300 font-medium">
-              © 2026 EVENTRIC. All Rights Reserved.
+              © 2026 ROLLAND SPACES PRIVATE LIMITED. All Rights Reserved.
             </p>
             <p className="text-[11px] text-stans-grey/90">
-              Legal Entity: WASIM HASHMI | Trade Name: EVENTRIC (Proprietorship) | GSTIN: 27AOGPH6435N2ZI
+              Legal Entity: ROLLAND SPACES PRIVATE LIMITED | Private Limited Company | GSTIN: 27AAMCR2075D1ZC
             </p>
           </div>
 

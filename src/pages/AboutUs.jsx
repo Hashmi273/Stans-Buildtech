@@ -35,7 +35,7 @@ export default function AboutUs() {
             {/* Required Brand Statement */}
             <div className="p-4 bg-stans-gold-light rounded-xl border border-stans-gold/30 text-stans-navy">
               <p className="text-sm font-semibold leading-relaxed">
-                Stans Buildtech is a real estate & technology retail brand operated by Immense Smart Solutions, focused on presenting high-performance computing solutions and laptop accessories across India.
+                {companyDetails.about.statement}
               </p>
             </div>
 
